@@ -6,7 +6,7 @@
   "typings": "./src/index.ts",
   "dependencies": {
     "tslib": "^1.9.0",
-    "typeorm": "^0.2.7"
+    "typeorm": "^0.2.13"
   },
   "peerDependencies": {
     "@tsed/common": "0.0.0-PLACEHOLDER",
