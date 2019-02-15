@@ -1,3 +1,4 @@
 --require tasks/mocha/register
 --bail
+--timeout 5000
 {packages,test}/**/*.spec.ts
