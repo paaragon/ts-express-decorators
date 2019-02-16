@@ -130,7 +130,7 @@
     "supertest": "^3.4.2",
     "swagger-ui-dist": "^3.20.7",
     "travis-deploy-once": "^5.0.4",
-    "ts-node": "^7.0.1",
+    "ts-node": "7.0.1",
     "tsconfig-paths": "^3.8.0",
     "tslint": "^5.8.0",
     "typeorm": "^0.2.13",
