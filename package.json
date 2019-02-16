@@ -134,7 +134,7 @@
     "tsconfig-paths": "^3.8.0",
     "tslint": "^5.8.0",
     "typeorm": "^0.2.13",
-    "typescript": "^3.3.3",
+    "typescript": "^3.0.1",
     "vue-analytics": "^5.14.0",
     "vuepress": "^0.14.2",
     "vuepress-theme-tsed": "^1.4.0"

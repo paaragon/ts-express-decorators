@@ -322,7 +322,7 @@ export abstract class ServerLoader implements IServerLifecycle {
    */
   public scan(patterns: string | string[], endpoint?: string): ServerLoader {
     const promises = globby.sync(ServerLoader.cleanGlobPatterns(patterns, this.settings.exclude)).map(async (file: string) => {
-      $log.debug(`Import file ${endpoint}:`, file);
+      $log.debug(`Import file ${endpoint || ""}:`, file);
       try {
         const classes: any[] = await import(file);
         this.addComponents(classes, {endpoint});
